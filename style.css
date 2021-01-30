@@ -1,0 +1,44 @@
+body {
+    color: #414141;
+    background-color: #eeeeee;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 2em; 
+    /* em = 36 because base font is 18px */
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+/* SELECT MULITPLE ELEMENTS LIKE SO */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    /* ORDER MATTERS
+        The browser tries to load the fonts in left to right order. If user doesn't have the font, then,
+        the next one to the right is tried. */
+}
+
+ul {
+    list-style-type:circle;
+    /* can create custom bullets for <li> elements with the list-style-image property */
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+a {
+    text-decoration: none;
+    /* removes auto devoration.
+    don't user : line-through, for deleted items
+    -USE HTML FOR MEANING (deleted will be fethced in database through html)
+    -USE CSS FOR DECOR*/
+}
+
+p {
+    text-align: left;
+}
